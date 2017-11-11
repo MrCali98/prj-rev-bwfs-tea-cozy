@@ -1,0 +1,94 @@
+/* Standard */
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9;
+}
+
+/* Header */
+#logo {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav {
+  font-family: Helvetica;
+  color: seashell;
+}
+
+nav span {
+  text-decoration: underline;
+}
+
+header {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+}
+/* Main */
+.image {
+  background-image: url(../img/main.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-text {
+  background-color: black;
+  text-align: center;
+}
+
+#month {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline {
+  text-align: center;
+}
+
+.teas {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+}
+
+#location {
+  background-image: url(../img/unten.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+/* Footer */
+#main-footer {
+  height: 200px;
+  text-align: center;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
